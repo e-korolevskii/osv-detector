@@ -11,7 +11,7 @@ env:
 
 jobs:
   test-ubuntu:
-    name: Test on Ubuntu
+    name: Test on
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
